@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma premiere page html</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <!--Ceci est l entete de ma page-->
+    <header id="header">
+            <nav>
+                  <img src="images/gomycodeLogo.svg" alt="gomycode"/>
+                  <ul class="menu">
+                      <li><a href="#accueil">Accueil</a></li>
+                      <li><a href="#equipe">Notre Equipe</a></li>
+                      <li><a href="#apropos">A propos de nous</a></li>
+                      <li><a href="#contact">Nous contacter</a></li>
+                  </ul>
+            </nav>
+    </header>
+    <!--Ceci est le contenu pricipal-->
+    <main id="main">  
+      
+      
+           <section id="accueil">
+                    <h1>Bienvenue sur notre site</h1>
+                    <div class="bloc1">
+                          <div class="inner_b1">
+                               <img src="https://images.pexels.com/photos/13791398/pexels-photo-13791398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="bienvenue" />
+                          </div>
+                          <div class="inner_b2">
+                               <p>
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                   Laborum, dicta, assumenda exercitationem perferendis placeat optio vitae 
+                                   voluptatibus, necessitatibus blanditiis repudiandae alias beatae. Quasi quidem
+                                    officia omnis animi exercitationem, inventore eos.
+                               </p>
+                               <div style="text-align: center;">
+                                    <button>En savoir plus...</button>
+                               </div>
+                               
+                          </div>
+                    </div>
+            </section>
+            <section id="equipe">
+                       <h3 style="text-align: center;">Notre Equipe</h3>
+                       <div class="cards" >
+                            <div class="card1">
+                                 <div style="width: 100%;height: 80%;">
+                                    <img src="images/IMG-20241021-WA0000.jpg"  alt="photo1" style="width: 100%; height: 100%; border-radius: 25px;"/>
+                                 </div>
+                                  <p style="text-align: center;">Mamoudou</p>
+
+                                  <button>Decouvrir le profil</button>
+                            </div>
+                            <div class="card2">
+                              <div style="width: 100%;height: 80%;">
+                                 <img src="images/IMG-20241021-WA0000.jpg"  alt="photo1" style="width: 100%; height: 100%; border-radius: 25px;"/>
+                              </div>
+                               <p style="text-align: center;">Mamoudou</p>
+
+                               <button>Decouvrir le profil</button>
+                         </div>
+                         <div class="card3">
+                              <div style="width: 100%;height: 80%;">
+                                 <img src="images/IMG-20241021-WA0000.jpg"  alt="photo1" style="width: 100%; height: 100%; border-radius: 25px;"/>
+                              </div>
+                               <p style="text-align: center;">Mamoudou</p>
+
+                               <button>Decouvrir le profil</button>
+                         </div>
+                       </div>
+            </section>
+            <section id="apropos">
+                    <h3 style="text-align: center;">A propos de nous</h3>
+                    <div class="apropos">
+                          <div class="apropos1">
+                               <p>
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                  Dicta illo nihil cumque rem voluptas veritatis adipisci impedit voluptatem, 
+                                  natus provident delectus! At incidunt aspernatur enim quibusdam eius quia, facilis facere!
+                               </p>
+                               <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Dicta illo nihil cumque rem voluptas veritatis adipisci impedit voluptatem, 
+                                    natus provident delectus! At incidunt aspernatur enim quibusdam eius quia, facilis facere!
+                                 </p>
+                          </div>
+                          <div class="apropos2">
+                                <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="equipe" style="width: 100%;height: 100%;"/>
+                          </div>
+                    </div>
+            </section>
+            <section id="contact" class="contact">
+                     <h3 style="text-align: center;">Nous Contacter</h3>
+
+                     <form>
+                        <div style="display: flex; justify-content: space-between;">
+                              <div>
+                                    <label for="prenom">Prenom</label><br/>
+                                    <input type="text" name="prenom" id="prenom" placeholder="entrez votre prenom" size="50" style="height: 20px;" />
+                                 </div>
+                               <div>
+                                    <label for="nom">Nom</label><br/>
+                                    <input type="text" name="nom" id="nom" placeholder="entrez votre nom" size="50" style="height: 20px;"/>
+                               </div> 
+                        </div>
+                              <br/>
+                         <div>
+                              <label for="email">Email</label><br/>
+                            <input type="email" name="email" id="email" placeholder="entrez votre email" style="width: 99%;height: 20px;"/>
+                         </div>
+                         <br/>
+                           <div>
+                              <label>Message</label><br/>
+                            <textarea style="width: 99.5%;">
+                              
+                            </textarea>
+                           </div> <br/>
+                            
+                            <button>Envoyer</button>
+                     </form>
+            </section>
+    </main>
+    <!--Ceci est le pied de page-->
+    <footer id="footer" >
+            <div style="display: flex; justify-content: space-between;" class="footer">
+                  <div>
+                        <img src="images/gomycodeLogo.svg" alt="gomycode"/>
+                  </div>
+                   <div>
+                        <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                       <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                       <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                   </div>
+                   <div>
+                        <nav>
+                              <ul>
+                                    <li><a href="#">Accueil</a></li>
+                                    <li><a href="#">Notre Equipe</a></li>
+                                    <li><a href="#">A propos de nous</a></li>
+                                    <li><a href="#">Nous contacter</a></li>
+                                </ul>
+                        </nav>
+                   </div>
+                  
+                   
+            </div>
+            <p style="text-align: center;">
+                  &copy; Copyright 2024 / All rights reserved.
+            </p>
+    </footer>
+    <script src="https://kit.fontawesome.com/0a79c8fccf.js" crossorigin="anonymous"></script>
+</body>
+</html>
